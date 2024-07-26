@@ -7,7 +7,7 @@ import Swal from 'sweetalert2';
 @Component({
   selector: 'app-manage-item',
   standalone: true,
-  imports: [FormsModule,CommonModule,HttpClientModule,],
+  imports: [FormsModule,CommonModule,HttpClientModule],
   templateUrl: './manage-item.component.html',
   styleUrl: './manage-item.component.css'
 })

@@ -1,0 +1,18 @@
+<div class="container">
+    <h1 class="text-center mb-4 bg-warning p-4 text-white fw-bolder">Generate Rental</h1>
+    <div class="input-group mb-3">
+        <span class="input-group-text" id="basic-addon1">Item Code</span>
+        <input type="text" class="form-control" placeholder="ItemCode" aria-label="ItemCode" [(ngModel)]="itemDetailObj.itemCode" aria-describedby="basic-addon1">
+      </div>
+    <div class="input-group mb-3">
+        <span class="input-group-text" id="basic-addon1">ItemQty</span>
+        <input type="text" class="form-control" placeholder="ItemQty" aria-label="ItemQty" [(ngModel)]="itemDetailObj.itemQty" aria-describedby="basic-addon1">
+      </div>
+
+      <div class="input-group mb-3">
+        <span class="input-group-text" id="basic-addon1">ReturnDate</span>
+        <input type="text" class="form-control" placeholder="Return Date" aria-label="Return Date" [(ngModel)]="itemDetailObj.returnDate" aria-describedby="basic-addon1">
+      </div>
+
+    <button type="button" class="btn btn-success" (click)="generateRental()">Generate Rental</button>
+</div>
